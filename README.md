@@ -1,29 +1,32 @@
-## Aplikasi Kalkulator
 
-Aplikasi sederhana untuk menghitung angka(tambah, kurang, bagi, persen) menggunakan bahasa Kotlin. Proyek ini membantu memahami ViKelompok Anda akan mengembangkan aplikasi kalkulator sederhana menggunakan bahasa Kotlin di Android Studio. Proyek ini akan membantu Anda memahami dasar-dasar pengembangan aplikasi Android, Activity, dan tata letak antarmuka pengguna lainnya.
+### Deskripsi Proyek View Binding Data Binding
 
-### Deskripsi Proyek
-
-Kelompok kami mengembangkan aplikasi kalkulator sederhana menggunakan bahasa Kotlin di Android Studio. Proyek ini akan membantu Anda memahami dasar-dasar pengembangan aplikasi Android, Activity, dan tata letak antarmuka pengguna
+Kelompok Anda akan mengembangkan aplikasi Android sederhana yang menggunakan View Binding dan Data Binding dengan ViewModel. Tugas ini akan membantu Anda memahami cara menghubungkan antara tampilan UI, logika bisnis (ViewModel), dan konsep-konsep View Binding serta Data Binding.
 
 ### Tahapan Proyek
 
-#### Desain Antarmuka
-1.	Desain tampilan aplikasi kalkulator sederhana dengan dua layar, satu untuk memasukkan ekspresi matematika dan yang lainnya untuk menampilkan hasilnya.
+#### Persiapan Proyek
+1.	Buat proyek Android baru menggunakan Android Studio.
+2.	Implementasi View Binding:
+3.	Aktifkan View Binding dalam proyek Anda (periksa apakah sudah diaktifkan dalam file build.gradle).
+4.	Gunakan View Binding untuk mengakses tampilan UI, seperti TextView atau Button, dari layout XML.
 
-#### Implementasi Activity
-1.	Buat sebuah Activity utama yang akan menjadi tampilan kalkulator.
+#### Implementasi Data Binding
+1.	Aktifkan Data Binding dalam proyek Anda (periksa apakah sudah diaktifkan dalam file build.gradle).
+2.	Buat model data sederhana yang akan digunakan dalam Data Binding.
+3.	Implementasikan binding antara model data dan tampilan UI dalam layout XML.
 
-#### Logika Kalkulator
-1.	Implementasikan logika kalkulator sederhana yang dapat melakukan operasi tambah, kurang, kali, dan bagi.
-2.	Tangani masukan pengguna dan tampilkan hasilnya pada layar.
+#### Implementasi View Model/Adapter
+1.	Buat ViewModel sederhana yang berisi data dan metode yang akan diikat ke tampilan.
+2.	Gunakan ViewModel untuk memanipulasi data yang akan ditampilkan dalam tampilan UI.
 
-#### Pengujian
-1.	Uji aplikasi Anda di emulator Android untuk memastikan operasi kalkulator berfungsi dengan baik.
+#### Menghubungkan Semua di Main
+1.	Hubungkan tampilan UI, Data Binding, ViewModel, dan View Binding agar dapat bekerja bersama.
+2.	Pastikan tampilan dapat menampilkan data yang dikelola oleh ViewModel.
 
 ### Output
 <p float="center">
-  <img src="https://github.com/sumber-rejeki/TKM09-Aplikasi-Kalkulator/blob/d04609a12b24f42a1c8faafebac8170085214d50/k_night.jpg?raw=true" alt="Night" width="400"/>
+  <img src="https://github.com/sumber-rejeki/TKM10-RV-Data-Binding/blob/a8d5b7c529f2ae5274606898690db2afc4d9de20/ss.jpg?raw=true" alt="Night" width="400"/>
 </p>
 
 ### Authors
