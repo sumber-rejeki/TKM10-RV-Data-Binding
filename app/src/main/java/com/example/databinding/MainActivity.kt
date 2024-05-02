@@ -1,4 +1,4 @@
-package com.example.rv_databinding
+package com.example.databinding
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.rv_databinding.databinding.ActivityMainBinding
+import com.example.databinding.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 

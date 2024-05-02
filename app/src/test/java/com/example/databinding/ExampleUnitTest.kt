@@ -1,4 +1,4 @@
-package com.example.rv_databinding
+package com.example.databinding
 
 import org.junit.Test
 

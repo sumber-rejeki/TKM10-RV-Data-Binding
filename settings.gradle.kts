@@ -19,5 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "RV-DataBinding"
+rootProject.name = "Data Binding"
 include(":app")
+ 

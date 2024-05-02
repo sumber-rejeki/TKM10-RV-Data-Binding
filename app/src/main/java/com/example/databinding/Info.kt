@@ -1,3 +1,4 @@
-package com.example.rv_databinding
+package com.example.databinding
 
 data class Info(val image:Int, val name:String)
+

@@ -1,15 +1,17 @@
+@file:Suppress("UNUSED_EXPRESSION")
+
 plugins {
-    alias(libs.plugins.android.application)
-    alias(libs.plugins.jetbrains.kotlin.android)
+    alias(libs.plugins.androidApplication)
+    alias(libs.plugins.jetbrainsKotlinAndroid)
 }
 
 android {
-    namespace = "com.example.rv_databinding"
+    namespace = "com.example.databinding"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.rv_databinding"
-        minSdk = 30
+        applicationId = "com.example.databinding"
+        minSdk = 24
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -30,12 +32,13 @@ android {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
-    kotlinOptions {
-        jvmTarget = "1.8"
-    }
     buildFeatures{
         viewBinding = true
         dataBinding = true
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
     }
 }
 
